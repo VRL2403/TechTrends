@@ -20,8 +20,8 @@ jobs:
       - name: Login to DockerHub
         uses: docker/login-action@v1
         with:
-          username: ${{ secrets.DH_USERNAME }}
-          password: ${{ secrets.DH_TOKEN }}
+          username: viralm2403
+          password: 28e1bd91-dc92-418b-ab46-f540e2e24fb0
       - name: TechTrends - Package with Docker
         uses: docker/build-push-action@v2
         with:
