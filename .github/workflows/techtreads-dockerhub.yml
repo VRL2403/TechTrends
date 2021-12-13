@@ -26,4 +26,4 @@ jobs:
           file: project/Dockerfile
           platforms: linux/amd64
           push: true
-          tags: VRL2403/techtrends:latest
+          tags: vrl2403/techtrends:latest
