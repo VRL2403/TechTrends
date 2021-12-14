@@ -1,6 +1,6 @@
 # set the base image. Since we're running 
 # a Python application a Python base image is used
-FROM python:2.7
+FROM python:3.8
 # set a key-value label for the Docker image
 LABEL maintainer="Viral"
 # copy files from the host to the container filesystem. 
